@@ -1,0 +1,32 @@
+.grid-container{
+	display: grid;
+	background-color: pink;
+    grid-template-areas:
+    "header header header"
+    "menu main aside"
+    "footer footer footer";
+}
+
+.grid-container div{
+	background-color: darkblue;
+	text-align: center;
+	color:white;
+	padding: 10px;
+	border: 1px solid white;
+}
+
+.item1{
+	grid-area:header;
+}
+
+.item2{
+	grid-area:menu;
+}
+
+.item3{
+	grid-area:main;
+}
+
+.item4{
+  grid-area:footer;
+}
